@@ -4,6 +4,6 @@
 cp -r ~/.config/ ~/Desktop/dotfiles/.config
 cp ~/.bash_profile ~/Desktop/dotfiles
 
-# remove annoying files
-rm -rf .config/nvim/.**
-git rm -rf .config/nvim/.**
+# remove git subfolders
+rm -rf ./.config/nvim/.git ./.config/nvim/.github
+
