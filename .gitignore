@@ -1,0 +1,22 @@
+# Typical files I like to ignore
+
+# macOS 
+**/.DS_Store
+
+# VSCode
+**/.vscode
+
+# Python
+**/__pycache__
+**/*.py[cod]
+
+
+# Specific to this project
+.config/github-copilot
+.config/mayhem
+.config/yarn
+.config/nvim/.**
+.config/nvim/README.md
+.config/nvim/LICENSE
+.config/nivm/init.lua
+.config/nvim/lazy-lock.json
