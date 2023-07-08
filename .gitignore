@@ -20,3 +20,4 @@
 .config/nvim/LICENSE
 .config/nivm/init.lua
 .config/nvim/lazy-lock.json
+.config/iterm2
