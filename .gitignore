@@ -15,9 +15,9 @@
 .config/github-copilot
 .config/mayhem
 .config/yarn
+.config/iterm2
 .config/nvim/.**
 .config/nvim/README.md
 .config/nvim/LICENSE
 .config/nivm/init.lua
 .config/nvim/lazy-lock.json
-.config/iterm2
