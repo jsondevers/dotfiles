@@ -17,13 +17,13 @@ local options = {
     },
   },
   suggestion = {
-    enabled = false,
+    enabled = true,
     is_visible = true,
     auto_trigger = true,
     debounce = 75,
     keymap = {
       -- remap accept to tab completion
-      accept = "<Tab>",
+      accept = "<Right>",
       accept_word = false,
       accept_line = false,
       next = "<M-]>",

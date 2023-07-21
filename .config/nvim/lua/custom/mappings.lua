@@ -1,30 +1,33 @@
 local M = {}
 
+M.disabled = {}
+
 M.dap = {
   plugin = true,
   n = {
-    ["<leader>db"] = { "<cmd> DapToggleBreakpoint <CR>" },
-    ["<leader>dus"] = {
-      function ()
-        local widgets = require('dap.ui.widgets');
-        local sidebar = widgets.sidebar(widgets.scopes);
-        sidebar.open();
-      end,
-      "Open debugging sidebar"
-    }
-  }
+    ["<leader>db"] = {
+      "<cmd> DapToggleBreakpoint <CR>",
+      "Add breakpoint at line",
+    },
+    ["<leader>dr"] = {
+      "<cmd> DapContinue <CR>",
+      "Start or continue the debugger",
+    },
+  },
 }
 
-M.crates = {
-  plugin = true,
+M.keys = {
+  -- normal mode
   n = {
-    ["<leader>rcu"] = {
-      function ()
-        require('crates').upgrade_all_crates()
-      end,
-      "update crates"
-    }
-  }
+    ["<leader>s"] = { [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], "Replace word under cursor" },
+  },
+  -- visual mode
+  v = {
+    ["J"] = { ":m '>+1<CR>gv=gv", "Move lines down" },
+    ["K"] = { ":m '<-2<CR>gv=gv", "Move lines up" },
+  },
+  -- insert mode
+  i = {},
 }
 
 return M

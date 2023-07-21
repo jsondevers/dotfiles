@@ -15,10 +15,4 @@
 .config/github-copilot
 .config/mayhem
 .config/yarn
-.config/iterm2
-.config/nvim/.git
-.config/nvim/.github
-.config/nvim/README.md
-.config/nvim/LICENSE
-.config/nivm/init.lua
-.config/nvim/lazy-lock.json
+vscode/

@@ -1,0 +1,73 @@
+{
+    "cSpell.words": [
+        "Childs",
+        "CMU's",
+        "dvips",
+        "EECS",
+        "Eulerian",
+        "fulkerson",
+        "Fulkerson",
+        "Geoff",
+        "Kleinberg",
+        "lecnum",
+        "Maggs",
+        "Mansell",
+        "pdflatex",
+        "questionare",
+        "Strassen",
+        "Tardos",
+        "Tibshirani",
+        "Winograd",
+        "xdvi"
+    ],
+    "editor.formatOnSaveMode": "modifications",
+    "editor.formatOnPaste": true,
+    "editor.guides.bracketPairs": true,
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.tabSize": 4,
+    "editor.tabCompletion": "on",
+    "editor.wordWrap": "on",
+    "latex-workshop.latex.autoBuild.run": "onFileChange",
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.refresh-viewer:": "xdvi",
+    "latex-workshop.view.pdf.tab.openDelay": 10,
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.ist",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.synctex.gz",
+        "*.xdy"
+    ],
+}
