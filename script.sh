@@ -1,5 +1,5 @@
 #!/bin/bash
-  
+# test  
 # copy files to this directory
 cp ~/.zshrc ~/Desktop/dotfiles/.zshrc
 cp ~/.config/tmux/tmux.conf ~/Desktop/dotfiles/.config/tmux/tmux.conf
