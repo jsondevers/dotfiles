@@ -1,7 +1,11 @@
 local cmp = require "cmp"
 
 local plugins = {
-
+  {
+    "ThePrimeagen/vim-be-good",
+    cmd = "VimBeGood",
+    lazy = false,
+  },
   {
     "lervag/vimtex",
     ft = "tex",
@@ -100,14 +104,17 @@ local plugins = {
         "black",
         -- C++
         "clangd",
-        "clang-format",
-        "codelldb",
+        --  "clang-format",
+        --  "codelldb",
         -- Go
         "gopls",
         -- LaTex
         "texlab",
         -- Markdown
         "markdownlint",
+        -- bash
+        "bash-language-server",
+        "beautysh",
       },
     },
   },

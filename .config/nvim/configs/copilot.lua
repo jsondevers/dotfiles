@@ -31,6 +31,13 @@ local options = {
       dismiss = "<C-]>",
     },
   },
+  filetypes = {
+    rust = false,
+    go = false,
+    cpp = false,
+    c = false,
+    zig = false,
+  }
 }
 
 return options

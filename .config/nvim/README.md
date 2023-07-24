@@ -1,3 +1,0 @@
-# NVim Config
-
-

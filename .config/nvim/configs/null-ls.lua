@@ -13,7 +13,7 @@ local sources = {
 
   -- webdev stuff
   b.formatting.deno_fmt, -- choosed deno for ts/js files cuz its very fast!
-  b.formatting.prettier.with { filetypes = { "html", "markdown", "css" } }, -- so prettier works only on these filetypes
+  b.formatting.prettier.with { filetypes = { "markdown", "json",  } }, -- so prettier works only on these filetypes
 
   -- Lua
   b.formatting.stylua,
@@ -23,6 +23,10 @@ local sources = {
 
   -- go
   b.formatting.gofmt,
+
+  -- bash
+  b.formatting.shfmt.with { extra_args = { "-i", "2", "-ci" } },
+  b.formatting.beautysh.with { filetypes = { "sh", "zsh" } },
 }
 
 null_ls.setup {
