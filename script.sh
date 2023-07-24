@@ -20,4 +20,6 @@ rm -rf ~/Desktop/dotfiles/.config/alacritty/.git
 rm -rf ~/Desktop/dotfiles/.oh-my-zsh/.git
 rm -rf ~/Desktop/dotfiles/.config/tmux/plugins/tmux-mem-cpu-load/.git
 rm -rf ~/Desktop/dotfiles/.config/tmux/plugins/tmux-mem-cpu-load/.github/
-
+rm -rf ~/Desktop/dotfiles/.config/alacritty/.github/
+rm -rf ~/Desktop/dotfiles/.oh-my-zsh/git
+rm -rf ~/Desktop/dotfiles/.oh-my-zsh/github
